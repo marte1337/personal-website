@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #bea337;
+    color: #FF8BFF;
+  }
+  
+  header {
+    background-color: #193718;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  nav {
+    background-color: #193718;
+    padding: 1px;
+    text-align: center;
+  }
+
+  nav a {
+    font-size: 20px;
+    padding: 10px;
+    display: inline-block;
+    color: #FF8BFF;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #f1c40f;
+  }
+  
+  section {
+    padding: 50px;
+    margin-top: 15px;
+    text-align: justify;
+  }
+  
+  
+  h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  ul {
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  ul li:before {
+    content: "▹";
+    margin-right: 10px;
+    color: #f1c40f;
+  }
+  
+  .about-me {
+    color: white;
+    background-color: #4e2971;
+  }
+  
+  .skillset {
+    color: white;
+    background-color: #4e2971;
+  }
+  
+  .contact {
+    color: white;
+    background-color: #4e2971;
+  }
+  
